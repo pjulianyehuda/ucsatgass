@@ -1,4 +1,4 @@
-package com.example.moviesapp.ui.movie;
+package com.example.moviesapp.ui.satgas;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

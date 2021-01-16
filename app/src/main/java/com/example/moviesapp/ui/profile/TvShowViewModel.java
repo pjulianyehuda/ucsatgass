@@ -1,4 +1,4 @@
-package com.example.moviesapp.ui.tvshow;
+package com.example.moviesapp.ui.profile;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;

@@ -3,12 +3,12 @@
 
     <item
         android:id="@+id/satgas"
-        android:icon="@drawable/ic_outline_movie"
+        android:icon="@drawable/folder"
         android:title="SATGAS" />
 
     <item
         android:id="@+id/profile"
-        android:icon="@drawable/ic_outline_tv"
+        android:icon="@drawable/profile_user"
         android:title="PROFILE" />
 
 </menu>

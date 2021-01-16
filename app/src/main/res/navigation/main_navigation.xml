@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/satgas"
-        android:name="com.example.moviesapp.ui.movie.MovieFragment"
+        android:name="com.example.moviesapp.ui.satgas.MovieFragment"
         android:label="@string/nav_movie"
         tools:layout="@layout/fragment_movie" >
         <action
@@ -28,7 +28,7 @@
 
     <fragment
         android:id="@+id/profile"
-        android:name="com.example.moviesapp.ui.tvshow.TvShowFragment"
+        android:name="com.example.moviesapp.ui.profile.TvShowFragment"
         android:label="@string/nav_tv_show"
         tools:layout="@layout/fragment_tv_show" >
         <action
