@@ -49,8 +49,8 @@ public class TvShowAdapter extends RecyclerView.Adapter<TvShowAdapter.ViewHolder
         holder.popular.setText(tv.getPopularity());
         holder.date.setText(tv.getReleaseDate());
         holder.itemView.setOnClickListener(view -> {
-            TvShowFragmentDirections.ActionTvDetail action = TvShowFragmentDirections.actionTvDetail(null, tv);
-            Navigation.findNavController(view).navigate(action);
+            //TvShowFragmentDirections.ActionTvDetail action = TvShowFragmentDirections.actionTvDetail(null, tv);
+           // Navigation.findNavController(view).navigate(action);
         });
     }
 
