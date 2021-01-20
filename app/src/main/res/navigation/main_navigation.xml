@@ -22,22 +22,22 @@
         android:label="@string/satgas"
         tools:layout="@layout/fragment_satgas">
         <action
-            android:id="@+id/actionMovieDetail"
+            android:id="@+id/actiondetail"
             app:destination="@id/detailFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.ucsatgass.ui.detail.DetailFragment"
+        android:name="com.example.ucsatgass.ui.satgas.detail"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detailsatgas" >
+        tools:layout="@layout/fragment_detail" >
         <argument
-            android:name="movie"
-            app:argType="com.example.moviesapp.model.local.Movie"
+            android:name="@string/satgas"
+            app:argType="com.example.ucsatgass.model.local.Satgas"
             app:nullable="true" />
         <argument
             android:name="tvShow"
-            app:argType="com.example.moviesapp.model.local.TvShow"
+            app:argType="com.example.ucsatgass.model.local.Profile"
             app:nullable="true" />
     </fragment>
     <fragment

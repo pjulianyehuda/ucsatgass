@@ -1,4 +1,4 @@
-package com.example.ucsatgass.ui.profile;
+package com.example.ucsatgass.ui.satgas;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.ucsatgass.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link addprofile#newInstance} factory method to
+ * Use the {@link detail#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class addprofile extends Fragment {
+public class detail extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class addprofile extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public addprofile() {
+    public detail() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class addprofile extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment BlankFragment.
+     * @return A new instance of fragment detail.
      */
     // TODO: Rename and change types and number of parameters
-    public static addprofile newInstance(String param1, String param2) {
-        addprofile fragment = new addprofile();
+    public static detail newInstance(String param1, String param2) {
+        detail fragment = new detail();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class addprofile extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.addprofile, container, false);
+        return inflater.inflate(R.layout.fragment_detail, container, false);
     }
 }

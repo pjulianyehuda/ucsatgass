@@ -10,8 +10,8 @@
         android:label="TextInputLayout"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MoviesApp">
-        <activity android:name="com.example.ucsatgass.ui.MainActivity">
+        android:theme="@style/Theme.ucsatgass">
+        <activity android:name="com.example.ucsatgass.ui">
 
             <intent-filter>
 
@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity">
+            android:name="com.example.ucsatgass.ui.login.LoginFragment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
