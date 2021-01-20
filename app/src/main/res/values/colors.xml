@@ -2,9 +2,14 @@
 <resources>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="colorPrimary">#292929</color>
-    <color name="colorPrimaryDark">#292929</color>
-    <color name="colorAccent">#808080</color>
+<!--    <color name="colorPrimary">#292929</color>-->
+<!--    <color name="colorPrimaryDark">#292929</color>-->
+<!--    <color name="colorAccent">#808080</color>-->
     <color name="text_light_blue">#808080</color>
     <color name="text_bg_blue">#000000</color>
+    <color name="colorPrimary">#2a7ee6</color>
+    <color name="colorPrimaryDark">#76a5df</color>
+    <color name="colorAccent">#ffff8800</color>
+    <color name="zircon">#e0e6e4</color>
+    <color name="teal">#008080</color>
 </resources>

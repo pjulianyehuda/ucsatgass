@@ -6,21 +6,21 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.moviesapp.ui.splash.SplashFragment"
+        android:name="com.example.ucsatgass.ui.splash.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
-            android:id="@+id/actionMain"
-            app:destination="@id/satgas"
+            android:id="@+id/action_splashFragment_to_loginFragment2"
+            app:destination="@id/loginFragment2"
             app:popUpTo="@id/splashFragment"
             app:popUpToInclusive="true" />
     </fragment>
 
     <fragment
         android:id="@+id/satgas"
-        android:name="com.example.moviesapp.ui.satgas.MovieFragment"
+        android:name="com.example.ucsatgass.ui.satgas.satgasFragment"
         android:label="@string/satgas"
-        tools:layout="@layout/fragment_movie">
+        tools:layout="@layout/fragment_satgas">
         <action
             android:id="@+id/actionMovieDetail"
             app:destination="@id/detailFragment" />
@@ -28,9 +28,9 @@
 
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.moviesapp.ui.detail.DetailFragment"
+        android:name="com.example.ucsatgass.ui.detail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" >
+        tools:layout="@layout/fragment_detailsatgas" >
         <argument
             android:name="movie"
             app:argType="com.example.moviesapp.model.local.Movie"
@@ -42,11 +42,23 @@
     </fragment>
     <fragment
         android:id="@+id/profile"
-        android:name="com.example.moviesapp.ui.profile.ProfileFragment"
+        android:name="com.example.ucsatgass.ui.profile.ProfileFragment"
         android:label="@string/profile"
         tools:layout="@layout/fragment_profile">
         <action
             android:id="@+id/action_profile_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_profile_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.example.ucsatgass.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment2_to_satgas"
+            app:destination="@id/satgas" />
     </fragment>
 </navigation>
