@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ucsatgass">
-        <activity android:name="com.example.ucsatgass.ui">
+        <activity android:name="com.example.ucsatgass.ui.MainActivity">
 
             <intent-filter>
 
@@ -20,13 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.ucsatgass.ui.login.LoginFragment">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
+
 
         <meta-data
             android:name="preloaded_fonts"
